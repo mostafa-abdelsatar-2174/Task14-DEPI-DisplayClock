@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(212deg,rgba(176, 9, 95, 1) 15%, rgba(143, 69, 168, 1) 44%, rgba(80, 60, 181, 1) 64%, rgba(47, 164, 196, 1) 88%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.the-main{
+    width: 60vw;
+    height: 30vw;
+    border-radius: 25px ;
+    background: rgba(255, 255, 255, 0.2); /* شفاف */
+    backdrop-filter: blur(15px); /* تأثير زجاج */
+    -webkit-backdrop-filter: blur(15px); /* للمتصفحات القديمة */
+    border: 2px solid rgba(255, 255, 255, 0.3); /* حدود شفافة */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* ظل ناعم */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 3rem; /* عشان الساعة */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    span{
+        color: blue;
+        font-size: 3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
