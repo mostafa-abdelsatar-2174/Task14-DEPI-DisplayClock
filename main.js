@@ -20,7 +20,7 @@ setInterval(()=>{
     Seconds = thetime.getSeconds();
     MilliSeconds = Math.floor(thetime.getMilliseconds()/100);
     maindiv.innerHTML= `<h1>${Hours}<span>:</span>${Minutes}<span>:</span>${Seconds}<span>::</span>${MilliSeconds}</h1>
-    <p style="color:black;font-size:2rem;">${theDate}</p>`
+    <p>${theDate}</p>`
     let time = thetime.toLocaleTimeString(); // بيطلع الوقت بشكل منسق
     console.log(time);
 },100)

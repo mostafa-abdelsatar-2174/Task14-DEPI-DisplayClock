@@ -36,4 +36,39 @@ body{
         font-size: 3rem;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+    p{
+        color: black;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:992px) {
+    .the-main{
+        width: 75vw;
+        height: 40vw;
+        gap: 35px;
+    }
+}
+
+@media (max-width:768px) {
+    .the-main{
+        width: 90vw;
+        height: 45vw;
+        font-size: 2rem;
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .the-main{
+        height: 45vw;
+        font-size: 1.35rem;
+        gap: 25px;
+        p{
+            font-size: 1.1rem;
+        }
+    }
+    
 }
